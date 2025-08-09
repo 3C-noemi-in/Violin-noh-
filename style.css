@@ -89,7 +89,7 @@ nav a:last-child {
     display: flex;
     flex-wrap: wrap;
     padding: 60px 40px;
-    background-color: #ffffff;
+    background-color: #c8de9d;
 }
 
 .about-image {
@@ -116,12 +116,12 @@ nav a:last-child {
 .about-text h1 {
     font-size: 36px;
     font-family: 'Playfair Display', serif;
-    color: #b85b5b;
+    color: #f7c9d4;
     margin-bottom: 20px;
 }
 
 .about-text p {
     font-size: 16px;
-    color: #b85b5b;
+    color: #020202;
     line-height: 1.6;
 }
