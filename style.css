@@ -144,14 +144,14 @@ nav a:last-child {
 
 .cards-violino {
     background-color: #fff1f6;
-    padding: 40px 40px;
+    padding: 30px 30px;
     text-align: center;
 }
 
 .section-title {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
-    color: #b85b5b;
+    color: #000000;
     margin-bottom: 40px;
 }
 
@@ -180,6 +180,7 @@ nav a:last-child {
     width: 100%;
     height: auto;
     object-fit: cover;
+    min-width: 300px;
 }
 
 .card h3 {
