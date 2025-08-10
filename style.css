@@ -90,6 +90,7 @@ nav a:last-child {
     flex-wrap: wrap;
     padding: 60px 40px;
     background-color: #ffffff;
+    border-bottom: #000000 solid 1px;
 }
 
 .about-image {
@@ -141,7 +142,7 @@ nav a:last-child {
     font-weight: bold;
 }
 
-.cards-projetos {
+.cards-violino {
     background-color: #fff1f6;
     padding: 40px 40px;
     text-align: center;
