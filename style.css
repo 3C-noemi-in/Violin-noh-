@@ -143,9 +143,10 @@ nav a:last-child {
 }
 
 .cards-violino {
-    background-color: #fff1f6;
+    background-color: #ffffff;
     padding: 30px 30px;
     text-align: center;
+    width: 50%;
 }
 
 .section-title {
