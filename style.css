@@ -1,0 +1,370 @@
+/*NOEMI GOMES DE OLIVEIRA _ 3c. 30/08/25*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #c8de9d;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    margin: 80px 0 0 50px;
+    padding: 0 0 20px 0;
+    color:#f7c9d4;
+    border-bottom: #000000 solid 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    border-right: 1px solid #ffffff;
+}
+
+.navbar a:last-child {
+    border-right: none;
+}
+
+.intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    border-bottom: #000000 solid 1px;
+}
+
+.intro-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.intro-image img {
+    height: 400px;
+    margin-left: 60px;
+    display: block;
+}
+
+.intro-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    border-bottom: #000000 solid 1px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 380px;
+    height: auto;
+    margin-left: 90px;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+#imagemnoh {
+    border-radius: 100%;
+}
+
+.violin-section {
+    display: flex;
+    overflow: hidden;
+    gap: 50px;
+    padding: 20px 50px;
+}
+
+.containerviolino {
+    margin: 50px 0;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    h3 {
+        text-transform: capitalize;
+    }
+    button {
+        background-color: #f7c9d4;
+        border: #000000 solid 1px;
+        border-radius: 30px;
+        padding: 10px;
+    }
+}
+
+
+#violinotitulo {
+    margin: 50px 30px 0 50px;
+}
+
+.contatos {
+    background-color: #ffffff;
+    padding: 40px 40px;
+    text-align: center;
+    border-top: #000000 solid 1px;
+
+}
+
+.contatos-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contatos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 22px;
+    margin: 16px 0 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card p {
+    color: #000000;
+    font-size: 15px;
+    padding: 0 16px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.historia-section {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.historia-section h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.historia-section p {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-his {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-his img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.image-his img:hover {
+    transform: scale(1.05);
+}
+
+.curiosidades-section {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.curiosidades-section h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.curiosidades-section p {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.partituras-section {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.partituras-section h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.partituras-section p {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-par {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-par img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.image-par img:hover {
+    transform: scale(1.05);
+}
+
+.inspiracao-section {
+
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.inspiracao-section h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inspiracao-section p {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-his {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-his img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.image-his img:hover {
+    transform: scale(1.05);
+}
+
