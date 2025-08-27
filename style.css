@@ -80,7 +80,6 @@ body {
 }
 
 .intro-text h1 {
-    font-size: 36px;
     font-family: 'Playfair Display', serif;
     color: #000000;
     margin-bottom: 20px;
@@ -88,7 +87,6 @@ body {
 
 .intro-text p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
     color: #000000;
     line-height: 1.6;
 }
@@ -123,14 +121,12 @@ body {
 }
 
 .about-text h1 {
-    font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     margin-bottom: 20px;
 }
 
 .about-text p {
-    font-size: 16px;
     color: #000000;
     line-height: 1.6;
 }
@@ -179,7 +175,6 @@ body {
 
 .contatos-titulo {
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
     color: #000000;
     margin-bottom: 40px;
 }
@@ -216,14 +211,12 @@ body {
 .card h3 {
     font-family: 'Playfair Display', serif;
     color: #000000;
-    font-size: 22px;
     margin: 16px 0 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card p {
     color: #000000;
-    font-size: 15px;
     padding: 0 16px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -240,14 +233,12 @@ body {
 .historia-section h2 {
     color: #000000;
     margin-bottom: 15px;
-    font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .historia-section p {
     color: #000000;
     margin-bottom: 15px;
-    font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -282,7 +273,6 @@ body {
     color: #f7c9d4;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 1.8em;
     font-family: 'Playfair Display', serif;
     border-bottom: #000000 solid 1px;
 
@@ -303,7 +293,6 @@ body {
 }
 
 .curiosidades li{
-    font-size: 1.1em;
     margin-bottom: 10px;
     line-height: 1.6;
     padding-left: 10px;
@@ -345,13 +334,11 @@ header {
 }
 
 header h2 {
-    font-size: 28px;
     color: #f7c9d4;
     font-family: 'Playfair Display', serif;
 }
 
 .intro {
-    font-size: 16px;
     max-width: 700px;
     margin: 20px 0 30px 0;
     color: #555;
@@ -399,7 +386,6 @@ header h2 {
 
 .violinista p {
     color: #444;
-    font-size: 15px;
 }
 
 
@@ -424,14 +410,12 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
     margin-bottom: 10px;
     color: #c8de9d;
     font-family: 'Playfair Display', serif;
 }
 
 header p {
-    font-size: 16px;
     color: #555;
 }
 
@@ -465,12 +449,10 @@ header p {
 }
 
 .partitura h3 {
-    font-size: 20px;
     margin-bottom: 5px;
 }
 
 .partitura p {
-    font-size: 14px;
     color: #555;
     line-height: 1.5;
 }
