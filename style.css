@@ -149,9 +149,7 @@ body {
     padding: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-    h3 {
-        text-transform: capitalize;
-    }
+   
     button {
         background-color: #f7c9d4;
         border: #000000 solid 1px;
@@ -433,6 +431,13 @@ header p {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+     button {
+        background-color: #f7c9d4;
+        border: #000000 solid 1px;
+        border-radius: 30px;
+        padding: 10px;
+    }
 }
 
 
@@ -457,14 +462,7 @@ header p {
     line-height: 1.5;
 }
 
- button{
-    background-color: #f7c9d4;
-    color: white;
-    border: #000000 solid 1px;
-    border-radius: 10px;
-    padding: 8px;
-    font-weight: 600;
-}
+
 
 .menu-acessibilidade{
     position: fixed;
